@@ -2,11 +2,6 @@ import java.util.Arrays;
 import java.util.List;
 
 public class ProblemSet8 {
-    public static void main(String[] args) {
-        int array1[] = new int[]{};
-        int array2[] = new int[]{1, 2, 3};
-        System.out.println(Arrays.toString((sequential(array1, array2))));
-    }
 
     public boolean common(int[] a, int[] b) {
 
@@ -146,7 +141,7 @@ public class ProblemSet8 {
 
     }
 
-    public static int[] sequential(int[] a, int[] b) {
+    public int[] sequential(int[] a, int[] b) {
 
         if (a == null || b == null || (a.length + b.length < 3)) {
             return null;
